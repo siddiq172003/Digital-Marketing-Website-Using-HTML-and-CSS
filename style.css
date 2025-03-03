@@ -1,0 +1,120 @@
+.grow-list{
+    /* border: 1px solid red; */
+    display: flex;
+   flex-direction: row;
+   flex : 1 1 10px;
+   
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height:100px;
+}
+
+li::marker{
+    content:none;
+}
+
+nav .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+    margin: auto ;
+    flex: 1;
+    
+}
+.list{
+    color: #808080;
+    font-size: 20px;
+}
+.list-item:hover{
+    color: #2C3335;
+    cursor: pointer;
+}
+
+.brand-logo{
+    margin:10px;
+    padding : 10px;
+    /* border: 1px solid blue; */
+}
+
+
+.button-group{
+    margin: 25px;
+    display: flex;
+    padding: 2px 4px 2px 4px;
+    flex: 1; 
+    flex-direction: row-reverse;
+}
+.button-group .nav-button:hover{
+    color:#2C3335;
+}
+
+.button-group .nav-button{
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: beige;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 80vh;
+}
+
+.col {
+    display: flex;
+    flex: 1;
+    min-height: 100px;
+
+}
+.col-2 {
+    overflow:hidden;
+    
+}
+
+.btn{
+    background-color: #5A20CB;
+    border: none;
+    padding: 20px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin: 50px 0;
+  }
+  .col-2 img{
+
+    height: 500px;
+}
+
+.col-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* color: black; */
+    
+}
+
+.col-1 h1 {
+    font-size: 75px;
+    margin: 20px 0;
+    color: purple;
+  }
+
+  h1 span {
+    color: #5A20CB;
+  }
+
+  .col-1 p {
+    font-size: 20px;
+    margin-right: 100px;
+    color: grey;
+  }
+
+ 
